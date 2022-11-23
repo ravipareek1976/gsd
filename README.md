@@ -24,7 +24,7 @@ This folder contains the files to build a multi-container web app with Swarm Sta
 ## command executed on Dokcer website, could not clone git repo fro Docker Desktop
 docker image build  -t 9871889667/gsd:first-ctr .
 docker image ls
-docker login   // 9871889667/docker@123@#$%
+docker login   //  with docker id and password
 dockcer image push 9871889667/gsd:first-ctr        // it will push in https://hub.docker.com/repositories
 docker image rm 9871889667/gsd:first-ctr       // delete loca copy to verrfy image at DokcerHUb repo
 docker container run -d --name webravi -p 8000:8080 9871889667/gsd:first-ctr    // if image not avaialble loca pull from dokcer repo
